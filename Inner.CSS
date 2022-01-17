@@ -1,0 +1,26 @@
+body {
+text-align: center;
+align-items: center;
+background-color: rgb(101, 101, 200);
+margin-top: 10%;
+}
+
+img{
+  height: 150px;
+}
+
+fieldset{
+margin-left: 35%;
+margin-right: 35%;
+height: 40%;
+background-color: rgba(255, 255, 255, 0.493);
+border: 1px solid black;
+border-radius: 20px;
+box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.466)
+}
+div {
+  padding: 10px;
+}
+p {
+  color: rgb(144, 144, 144);
+}
