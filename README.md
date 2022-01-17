@@ -1,2 +1,8 @@
-# Exersicio--1
+pirr
+
+zica menó
+
+Aprendi essa disgraça
+
+pirr
  
