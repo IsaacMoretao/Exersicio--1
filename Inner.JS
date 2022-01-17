@@ -1,24 +1,18 @@
 function carregar() {
   var msg = window.document.getElementById('msg')
-  var img = window.Document.GetElementByID('Imagem')
- // var data = new Date()
-// var hora = data.getHours()
-  var hora = 13
+  var img = window.document.getElementsByClassName('Imagem')
+  var data = new Date()
+  var hora = data.getHours()
 
-  msg.InnerHTML = `Agora são ${hora} horas:)`
-  if (hora >= 12 && hora < 18) {
+  msg.innerHTML = `Agora são ${hora} horas:)`
+  if (hora >= 7 && hora < 11) {
     //BOM DIA!!!
     img.src = 'IMG/Manhã.Radio.Png.png'
-    console.log(`tarde`)
-  } else if (hora >= 12 && hora < 18){
+  } else if (hora >= 12 && hora < 18) {
     //BOA TARDE!!!
     img.src = 'IMG/Dia.Radio.Png.png'
-    console.log(`tarde`)
-  } else  {
+  } else {
     //BOA NOITE!!!
     img.src = 'IMG/Noite.Radio.Png.png'
-    console.log(`tarde`)
-  } 
+  }
 }
-
-console.log(`Tá fununciando?`)
