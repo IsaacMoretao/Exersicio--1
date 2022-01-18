@@ -1,0 +1,29 @@
+body {
+  text-align: center;
+  align-items: center;
+  background-color: rgb(70, 70, 226);
+  margin-top: 10%;
+  }
+  
+  img{
+    height: 150px;
+  }
+  
+  fieldset{
+  margin-left: 35%;
+  margin-right: 35%;
+  height: 40%;
+  background-color: rgb(29, 131, 215);
+  border: 1px solid black;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.466)
+  }
+  div {
+    padding: 10px;
+  }
+  p {
+    color: rgb(36, 36, 36);
+  }
+  button{
+    cursor: pointer;
+  }
