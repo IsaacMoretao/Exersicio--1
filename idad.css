@@ -20,6 +20,9 @@ body {
   }
   div {
     padding: 10px;
+    text-align: center;
+    margin-top: auto;
+    
   }
   p {
     color: rgb(36, 36, 36);

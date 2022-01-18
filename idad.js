@@ -3,6 +3,7 @@ function verificar() {
   var Ano = Data.getFullYear()
   var Tano = document.getElementById('TextAno')
   var res = document.getElementById('Result')
+  res.style.textAlign = 'center'
 
   if (Tano.value.length == 0 || Tano.value > Ano) {
     window.alert(`[Erro] O ano "${Tano.value}" não é valido, por favor Tente novamente :) [Erro]`)
