@@ -11,7 +11,7 @@
   <script src="add.js"></script>
 </head>
 
-<body onload="carregar()">
+<body >
 
   <header>
     <h1>
@@ -21,23 +21,16 @@
    
   <section>
    <div id="div-1">
-     <label for="" id="add">adicione um nomero de 1 a 100:</label> <br>
-     <input type="number">
+     <label for="" >adicione um nomero de 1 a 100:</label> <br>
+     <input type="number" id="add" />
 
-     <button onclick="verificar()" id="Bot" >adicionar</button>
-     
+     <button onclick="verificar()" value="enviar" type="submit"  id="Bot" >adicionar</button>
+
    </div>
-   <div id="div-2">
-     <table id="tab">
-       <tr>
-         <th>
-           <b>
-            Numeros
-           </b>
-         </th>
-       </th>
-
-     </table>
+   <div id="div-2">   <!--tab-->
+    <select name="flista" id="tab">
+      
+    </select>
 
    </div>
    <div id="div-3">
