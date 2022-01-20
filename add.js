@@ -1,25 +1,48 @@
- function verificar() {
-   let add = document.getElementById('add')
-   let tab = document.getElementById('tab')
+ function adicionar() {
+
+   let num = document.getElementById('num')
+   let lista = document.getElementById('flista')
    let valores = []
 
+ 
+   function isNumero(n){
+     if(Number(n) >= 1 && Number(n) <= 100){
+      return true
 
-   console.log("add", add.value)
-   if (add.value <= 0) {
-     window.alert(`[ERRO] O numero ${add.value} não é valido[ERRO]`)
+     } else {
+      return false
 
-   } else if (add.value > 100) {
-     window.alert(`[ERRO] O numero ${add.value} não é valido[ERRO]`)
+     }
+   }
 
-   } 
+   function inlista(n, l) {
 
-  if(isNumero(num.value) && !inlista(num.value, valores)){
-     valores.push(Number(add.value))
-   let item = document.crieateElement('option')
-   item.text = `valor${add.value} adicionado`
-   tab.appendChild(item)
-  }else{
-    window.alert('esse numero já existe')
+    if(l.indexOf(Number(n)) != -1) {
+      return true
+    } else{
+      return false
+    }
+    
   }
-  
+   
+
+
+   if (num.value <= 0) {
+     // alerta com valor do campo
+     window.alert(`[ERRO] O numero ${num.value} não é válido [ERRO]`);
+
+   } else if (num.value > 100) {
+     // alerta com valor do campo
+     window.alert(`[ERRO] O numero ${num.value} não é válido [ERRO]`);
+
+   }  else if (isNumero(num.value) && !inlista(num.value, valores)) {
+     window.alert(`O numero ${num.value} já está na lista`)
+
+    } else {
+     // alerta com valor do campo
+     window.alert("tudo certo!");
+
+   }
+
+
  }

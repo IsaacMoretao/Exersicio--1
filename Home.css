@@ -1,0 +1,20 @@
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+
+main{
+  background: url('IMG/pexels-julia-volk-5769310.jpg') no-repeat center center;
+  background-size: cover;
+  height: 92vh;
+}
+div{
+  height: 100px;
+  width: 200px;
+  font-size: 30px;
+  margin-top: 10%;
+}
+section{
+  text-align: center;
+}
