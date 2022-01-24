@@ -7,7 +7,7 @@ function verificar() {
 
   if (Tano.value.length == 0 || Tano.value > Ano) {
     window.alert(`[Erro] O ano "${Tano.value}" não é valido, por favor Tente novamente :) [Erro]`)
-
+ 
   } else {
 
     var Fsex = document.getElementsByName('sex')

@@ -1,7 +1,7 @@
 body {
   text-align: center;
   align-items: center;
-  background-color: rgb(110, 110, 110);
+  background-color: rgb(224, 224, 224);
   margin-top: 10%;
   }
   section{
@@ -35,4 +35,11 @@ body {
     cursor: pointer;
     margin-top: 10px;
     height: 30px;
+  }
+
+  input{
+    background-color: rgb(204, 204, 204);
+    border-radius: 5px;
+    border: 1px solid black;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.466)
   }

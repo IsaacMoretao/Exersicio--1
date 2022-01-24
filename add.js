@@ -43,6 +43,7 @@
     } else {
      window.alert(`O valor ${num.value} Já está na lista`);
 
-   }
-
+    }
+    num.value =''
+    num.focus()
  }
